@@ -1,0 +1,14 @@
+.slider__item-inner {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.slider__text {
+  width: 50%;
+}
+
+.slider__img {
+  width: 50%;
+}

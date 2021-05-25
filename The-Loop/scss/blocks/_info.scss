@@ -1,0 +1,42 @@
+@import "../vars";
+
+.info {
+  background-color: $accent-dark;
+  &__container {
+    padding: 0;
+    margin: 0;
+    max-width: 588px;
+    padding-top: 80px;
+    padding-bottom: 69px;
+    margin: 0 auto;
+  }
+
+  &__title {
+    display: flex;
+    justify-content: center;
+    font-family: $main-font;
+    font-size: 30px;
+    line-height: 37px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: $light;
+  }
+  &__title-text {
+    font-weight: 700;
+    padding-right: 7px;
+  }
+  &__price {
+    font-weight: 400;
+  }
+  &__text {
+    padding-top: 23px;
+    font-family: $main-font;
+    font-style: 400;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 26px;
+    text-align: center;
+    color: $light;
+  }
+}
