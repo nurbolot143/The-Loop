@@ -1,0 +1,41 @@
+@import "../vars";
+
+.collection {
+  text-align: center;
+  &__inner {
+    padding: 150px 0;
+  }
+  &__title {
+    margin: 0;
+    padding-bottom: 100px;
+    font-family: $main-font;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: $accent-dark;
+  }
+  &__models {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  &__item {
+  }
+  &__link {
+    margin: 0;
+    text-decoration: none;
+    font-family: $main-font;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: $dark;
+  }
+  &__price {
+    font-family: $main-font;
+    font-weight: 700;
+    font-size: 18px;
+    color: $accent-color;
+  }
+}

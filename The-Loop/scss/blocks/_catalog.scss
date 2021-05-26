@@ -1,0 +1,78 @@
+@import "../vars";
+
+.catalog {
+  // catalog__top
+  &__top {
+    background-color: $secondary-color;
+  }
+  &__inner {
+    padding: 0 20px;
+    padding-top: 60px;
+    min-height: 250px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  &__top-column {
+    position: relative;
+    display: flex;
+  }
+  &__column-img {
+    position: absolute;
+    right: 15px;
+    bottom: 0px;
+  }
+  &__title {
+    margin: 0;
+    font-family: $main-font;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.03em;
+    color: $dark;
+    text-transform: uppercase;
+    & span {
+      padding-left: 13px;
+      font-weight: 300;
+    }
+  }
+  &__text {
+    font-family: $main-font;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    color: $dark;
+    margin-bottom: 30px;
+  }
+
+  // catalog__list
+  &__list {
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    list-style: none;
+  }
+
+  &__item {
+    position: relative;
+  }
+  &__item-title {
+    position: absolute;
+    bottom: 0px;
+    left: 30px;
+    font-family: $main-font;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+  }
+  &__item-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: $dark;
+  }
+  &__item-img {
+    max-width: 277px;
+  }
+}

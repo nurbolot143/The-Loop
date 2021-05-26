@@ -372,3 +372,137 @@ body {
   text-align: center;
   color: #fff;
 }
+
+.catalog__top {
+  background-color: #F9F6F1;
+}
+
+.catalog__inner {
+  padding: 0 20px;
+  padding-top: 60px;
+  min-height: 250px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+.catalog__top-column {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.catalog__column-img {
+  position: absolute;
+  right: 15px;
+  bottom: 0px;
+}
+
+.catalog__title {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.03em;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.catalog__title span {
+  padding-left: 13px;
+  font-weight: 300;
+}
+
+.catalog__text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000;
+  margin-bottom: 30px;
+}
+
+.catalog__list {
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  list-style: none;
+}
+
+.catalog__item {
+  position: relative;
+}
+
+.catalog__item-title {
+  position: absolute;
+  bottom: 0px;
+  left: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 26px;
+  letter-spacing: 0.03em;
+}
+
+.catalog__item-link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.catalog__item-img {
+  max-width: 277px;
+}
+
+.collection {
+  text-align: center;
+}
+
+.collection__inner {
+  padding: 150px 0;
+}
+
+.collection__title {
+  margin: 0;
+  padding-bottom: 100px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+.collection__models {
+  list-style: none;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+}
+
+.collection__link {
+  margin: 0;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000;
+}
+
+.collection__price {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #D7B399;
+}
