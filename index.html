@@ -197,31 +197,21 @@
       <div class="catalog__top">
         <div class="container">
           <div class="catalog__inner">
-            <div class="catalog__top-column">
-              <div class="catalog__column-text">
-                <h3 class="catalog__title">Мужская<span>Коллекция</span></h3>
-                <p class="catalog__text">Обувь, полуверы, костюмы</p>
-                <a href="#" class="btn catalog__btn">
-                  <span class="sr-only">Перейти к коллекции</span>
-                  <img src="images/arrow.jpg" alt="Иконка стрелки" />
-                </a>
-              </div>
-              <div class="catalog__column-img">
-                <img src="images/column-men.png" alt="men" />
-              </div>
+            <div class="catalog__top-column catalog__top-column--men">
+              <h3 class="catalog__title">Мужская<span>Коллекция</span></h3>
+              <p class="catalog__text">Обувь, полуверы, костюмы</p>
+              <a href="#" class="btn catalog__btn">
+                <span class="sr-only">Перейти к коллекции</span>
+                <img src="images/arrow.jpg" alt="Иконка стрелки" />
+              </a>
             </div>
-            <div class="catalog__top-column">
-              <div class="catalog__column-text">
-                <h3 class="catalog__title">Женская<span>Коллекция</span></h3>
-                <p class="catalog__text">Обувь, полуверы, костюмы</p>
-                <a href="#" class="btn catalog__btn">
-                  <span class="sr-only">Перейти к коллекции</span>
-                  <img src="images/arrow.jpg" alt="Иконка стрелки" />
-                </a>
-              </div>
-              <div class="catalog__column-img">
-                <img src="images/column-women.png" alt="men" />
-              </div>
+            <div class="catalog__top-column catalog__top-column--women">
+              <h3 class="catalog__title">Женская<span>Коллекция</span></h3>
+              <p class="catalog__text">Обувь, полуверы, костюмы</p>
+              <a href="#" class="btn catalog__btn">
+                <span class="sr-only">Перейти к коллекции</span>
+                <img src="images/arrow.jpg" alt="Иконка стрелки" />
+              </a>
             </div>
           </div>
         </div>
@@ -379,11 +369,11 @@
           <form>
             <p>
               <label>
-                <input  class="gif__e-mail"
+                <input
+                  class="gif__e-mail"
                   type="email"
                   name="email"
                   placeholder="Ваш e-mail"
-                
                 />
               </label>
             </p>
@@ -453,58 +443,70 @@
     <footer class="footer">
       <div class="footer__footer-top-background-color">
         <div class="container">
-        <div class="footer__top">
-          <div class="footer__info">
-            <div class="logo header__logo">
-              <a class="logo__link header__logo-link" href="#">
-                <img
-                  class="logo__img"
-                  src="images/light-logo.svg"
-                  alt="The Loop logo"
-                />
-              </a>
+          <div class="footer__top">
+            <div class="footer__info">
+              <div class="logo header__logo">
+                <a class="logo__link header__logo-link" href="#">
+                  <img
+                    class="logo__img"
+                    src="images/light-logo.svg"
+                    alt="The Loop logo"
+                  />
+                </a>
+              </div>
+              <p class="footer__info-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+                faucibus egestas elit, at eleifend elit ornare ut.
+              </p>
             </div>
-            <p class="footer__info-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-              faucibus egestas elit, at eleifend elit ornare ut.
-            </p>
-          </div>
-          <div class="footer__basic-links">
-            <h3 class="footer__title">основные ссылки</h3>
-            <ul class="footer__text">
-              <li><a href="#" class="footer__link">О компании</a></li>
-              <li><a href="#" class="footer__link">Каталог</a></li>
-              <li><a href="#" class="footer__link">Доставка</a></li>
-              <li><a href="#" class="footer__link">Оплата</a></li>
-            </ul>
-          </div>
-          <div class="footer__category">
-            <h3 class="footer__title">категории</h3>
-            <ul class="footer__text">
-              <li><a href="#" class="footer__link">Мужская одежда</a></li>
-              <li><a href="#" class="footer__link">Женская одежда</a></li>
-              <li><a href="#" class="footer__link">Детская одежда</a></li>
-              <li><a href="#" class="footer__link">Для животных</a></li>
-            </ul>
-          </div>
-          <div class="footer__useful-links">
-            <h3 class="footer__title">полезные ссылки</h3>
-            <ul class="footer__text">
-              <li><a href="#" class="footer__link">Таблица размеров</a></_li>
-              <li><a href="#" class="footer__link">Блог о моде</a></li>
-              <li><a href="#" class="footer__link">Наша миссия</a></li>
-            </ul>
-          </div>
-          <div class="footer__sociol">
-            <h3 class="footer__title">соц. сети</h3>
-            <ul class="footer__text">
-              <li ><a href="#" class="footer__link footer__sociol-link"><img src="images/vk.svg" alt="В Контакте"><span> VK.com</span></a></li>
-              <li ><a href="#" class="footer__link"><img src="images/fb.svg" alt="facebook"> <span>Facebook</span> </a></li>
-              <li><a href="#" class="footer__link"><img src="images/i.svg" alt="Instagram"> <span>Instagram</span> </a></li>
-            </ul>
+            <div class="footer__basic-links">
+              <h3 class="footer__title">основные ссылки</h3>
+              <ul class="footer__text">
+                <li><a href="#" class="footer__link">О компании</a></li>
+                <li><a href="#" class="footer__link">Каталог</a></li>
+                <li><a href="#" class="footer__link">Доставка</a></li>
+                <li><a href="#" class="footer__link">Оплата</a></li>
+              </ul>
+            </div>
+            <div class="footer__category">
+              <h3 class="footer__title">категории</h3>
+              <ul class="footer__text">
+                <li><a href="#" class="footer__link">Мужская одежда</a></li>
+                <li><a href="#" class="footer__link">Женская одежда</a></li>
+                <li><a href="#" class="footer__link">Детская одежда</a></li>
+                <li><a href="#" class="footer__link">Для животных</a></li>
+              </ul>
+            </div>
+            <div class="footer__useful-links">
+              <h3 class="footer__title">полезные ссылки</h3>
+              <ul class="footer__text">
+                <li><a href="#" class="footer__link">Таблица размеров</a></li>
+                <li><a href="#" class="footer__link">Блог о моде</a></li>
+                <li><a href="#" class="footer__link">Наша миссия</a></li>
+              </ul>
+            </div>
+            <div class="footer__sociol">
+              <h3 class="footer__title">соц. сети</h3>
+              <ul class="sociol">
+                <li class="sociol__item">
+                  <a href="#" class="footer__link sociol__link sociol-link--vk"
+                    >VK.com</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="footer__link sociol__link sociol__link--fb"
+                    >Facebook</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="footer__link sociol__link sociol__link--i"
+                    >Instagram</a
+                  >
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
-      </div>
       </div>
       <div class="container">
         <div class="footer__bottom">

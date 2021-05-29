@@ -14,12 +14,22 @@
   }
   &__top-column {
     position: relative;
-    display: flex;
+    font-family: $main-font;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    color: $dark;
+    min-height: 190px;
+    background-image: url(../../images/column-men.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
   }
-  &__column-img {
-    position: absolute;
-    right: 15px;
-    bottom: 0px;
+  &__top-column--men {
+    background-position: bottom right 15px;
+  }
+  &__top-column--women {
+    background-image: url(../../images/column-women.png);
+    background-position: bottom right;
   }
   &__title {
     margin: 0;
@@ -35,15 +45,6 @@
       font-weight: 300;
     }
   }
-  &__text {
-    font-family: $main-font;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 20px;
-    color: $dark;
-    margin-bottom: 30px;
-  }
-
   // catalog__list
   &__list {
     padding: 0;

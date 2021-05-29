@@ -1,0 +1,27 @@
+@import "../vars";
+
+.sociol {
+  margin: 16px 0;
+  padding: 0;
+  list-style: none;
+  &__link {
+    position: relative;
+    padding-left: 25px;
+  }
+  &__link::before {
+    position: absolute;
+    left: 0;
+    top: 2px;
+    content: "";
+    width: 24px;
+    height: 24px;
+    background-image: url(../../images/vk.svg);
+    background-repeat: no-repeat;
+  }
+  &__link--fb::before {
+    background-image: url(../../images/fb.svg);
+  }
+  &__link--i::before {
+    background-image: url(../../images/in.svg);
+  }
+}
