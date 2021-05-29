@@ -1,0 +1,41 @@
+@import "../vars";
+
+.gif {
+  display: flex;
+  justify-content: space-between;
+  min-height: 180px;
+  align-items: center;
+  &__e-mail {
+    border: 0;
+    width: 255px;
+    height: 40px;
+    background-color: $secondary-color;
+    padding-left: 20px;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.02em;
+    color: $dark;
+  }
+  & form {
+    display: flex;
+    align-items: center;
+  }
+  &__follow {
+    margin-left: 35px;
+    border: 0;
+    width: 185px;
+    height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: $accent-color;
+    font-family: $main-font;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: $light;
+    cursor: pointer;
+  }
+}

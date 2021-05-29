@@ -12,9 +12,12 @@
   }
 
   &__title {
+    margin: 0;
     display: flex;
     justify-content: center;
+    padding-right: 7px;
     font-family: $main-font;
+    font-weight: 700;
     font-size: 30px;
     line-height: 37px;
     text-transform: uppercase;
@@ -22,17 +25,14 @@
     letter-spacing: 0.02em;
     color: $light;
   }
-  &__title-text {
-    font-weight: 700;
-    padding-right: 7px;
-  }
   &__price {
+    padding-left: 12px;
     font-weight: 400;
   }
   &__text {
     padding-top: 23px;
     font-family: $main-font;
-    font-style: 400;
+    font-style: normal;
     font-weight: 300;
     font-size: 21px;
     line-height: 26px;

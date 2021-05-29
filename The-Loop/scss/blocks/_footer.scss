@@ -1,0 +1,69 @@
+@import "../vars";
+
+.footer {
+  &__footer-top-background-color {
+    background-color: $accent-dark;
+  }
+  &__top {
+    padding: 73px 0 78px 0;
+    display: grid;
+    grid-template-columns: 4fr 2fr 2fr 2fr 2fr;
+  }
+  &__info-text {
+    margin: 0;
+    margin-top: 32px;
+    width: 200px;
+    font-family: $main-font;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: $light;
+  }
+  &__title {
+    font-family: $main-font;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: $light;
+  }
+  &__text {
+    padding: 0;
+    list-style: none;
+  }
+  & li {
+    margin-bottom: 10px;
+  }
+  &__link {
+    text-decoration: none;
+    font-family: $main-font;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: $third-color;
+    align-self: center;
+    // & img {
+    //   width: 24px;
+    //   height: 20px;
+    // }
+  }
+
+  &__bottom {
+    margin: 0;
+    margin: 30px 0 23px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__copyright {
+    width: 50%;
+  }
+  &__bottom-text {
+    font-family: $main-font;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: $accent-dark;
+  }
+}

@@ -30,9 +30,22 @@
     list-style: none;
     background-color: $accent-color;
     z-index: 2;
+    & a {
+      text-decoration: none;
+      font-family: $main-font;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 22px;
+      color: $accent-dark;
+    }
+    & a:hover {
+      border-radius: 00.5em;
+      background-color: $accent-dark;
+      color: $secondary-color;
+    }
   }
   &__submenu-link {
-    color: $secondary-color;
+    color: $accent-dark;
     text-decoration: none;
     display: block;
     padding: 0.6em 0.3em;

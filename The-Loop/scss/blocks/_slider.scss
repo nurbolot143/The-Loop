@@ -60,6 +60,17 @@
     line-height: 67px;
     letter-spacing: 0.04em;
     color: $dark;
+    &__btn {
+      display: inline-block;
+      margin-top: 40px;
+      padding: 17px 30px;
+      line-height: 20px;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      color: $light;
+      text-decoration: none;
+      background-color: $accent-color;
+    }
   }
   &__old-price {
     font-family: $main-font;
@@ -85,8 +96,5 @@
   }
   &__price {
     padding-top: 40px;
-  }
-  .btn {
-    display: none;
   }
 }

@@ -4,6 +4,7 @@
   text-align: center;
   &__inner {
     padding: 150px 0;
+    text-align: center;
   }
   &__title {
     margin: 0;
@@ -17,11 +18,37 @@
     color: $accent-dark;
   }
   &__models {
+    padding: 0;
     list-style: none;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+    margin-bottom: 100px;
   }
   &__item {
+    position: relative;
+    padding: 25px;
+    border: 3px solid $accent-color;
+  }
+
+  &__item::before {
+    position: absolute;
+    content: "";
+    left: 25px;
+    right: 25px;
+    top: -3px;
+    bottom: -3px;
+    border: 3px solid $light;
+  }
+
+  &__item::after {
+    position: absolute;
+    content: "";
+    left: -3px;
+    right: -3px;
+    top: 25px;
+    bottom: 25px;
+    border: 3px solid $light;
   }
   &__link {
     margin: 0;
@@ -37,5 +64,18 @@
     font-weight: 700;
     font-size: 18px;
     color: $accent-color;
+  }
+  &__btn {
+    width: 220px;
+    background-color: $accent-color;
+    padding: 18px 35px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: $main-font;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: $light;
   }
 }
